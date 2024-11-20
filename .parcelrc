@@ -1,0 +1,7 @@
+{
+  "extends": "@parcel/config-default",
+  "transformers": {
+    "*.geojson": ["@parcel/transformer-json"]
+  },
+  "reporters": ["...", "parcel-reporter-static-files-copy"]
+}
